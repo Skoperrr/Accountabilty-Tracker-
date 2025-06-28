@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="accountability-tracker">
+        <h1>Accountability Tracker</h1>
+        <p>Track your progress and stay accountable!</p>
+        
+        <form id="tracker-form">
+            <div>
+            <label for="task">Task:</label>
+            <input type="text" id="task" name="task" placeholder="Enter your task" required>
+            </div>
+            <br>
+            <div>
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date" name="start-date" required>
+            </div>
+            <br>
+            <div>
+            <label for="due-date">Due Date:</label>
+            <input type="date" id="due-date" name="due-date" required>
+            </div>
+            <br>
+            <button type="submit">Add Task</button>
+        </form>
+
+        <ul id="task-list">
+      
+        </ul>
+
+
+    </div>
+
+</body>
+<script src="Acountability.js"></script>
+</html>
