@@ -2,6 +2,7 @@ class Person:
     def __init__(self,name,age,promise):
         self.name = name
         self.age = age
+        self.promise = promise
     
     def set_username(self,name):
         self.name = name
